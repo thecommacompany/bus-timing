@@ -1,6 +1,7 @@
+
 <template>
-  <div>
-<h1>Bus Time</h1>
-<Button>Get Bus</Button>
+  <div class="max-w-screen overflow-hidden">
+      <HomeHero/>
+      <HomeSearchBar/>
   </div>
 </template>

@@ -6,7 +6,6 @@ export default defineNuxtConfig({
     "@primevue/nuxt-module",
     "@nuxt/icon",
     "@nuxt/image",
-    "@nuxtjs/seo",
     "@nuxt/eslint"
   ],
   primevue: {

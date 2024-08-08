@@ -11,15 +11,16 @@
   },
   "dependencies": {
     "@nuxt/eslint": "^0.4.0",
-    "@nuxt/icon": "^1.4.4",
+    "@nuxt/icon": "^1.4.5",
     "@nuxt/image": "^1.7.0",
     "@nuxtjs/seo": "2.0.0-rc.16",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@primevue/themes": "^4.0.4",
+    "@vue/runtime-dom": "^3.4.36",
     "nuxt": "^3.12.4",
     "primevue": "^4.0.4",
     "tailwindcss-primeui": "^0.3.4",
-    "vue": "latest",
+    "vue": "^3.4.35",
     "zod": "^3.23.8"
   },
   "devDependencies": {
