@@ -1,7 +1,7 @@
 <template>
     <div class="bg-customPurple p-5 w-screen flex justify-center items-center">
         <div class="">
-            <p class="text-lg text-white mt-4 opacity-80">
+            <p class="text-lg md:text-sm sm:text-sm text-white mt-4 opacity-80">
                     Powered By<span class="font-black font-inter"><a href="https://www.thecomma.co.in/" target="_blank"> The Comma Company</a></span>
                 </p>
         </div>

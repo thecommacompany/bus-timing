@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 import { ref, onMounted, onUnmounted } from 'vue';
 
 // Declare showMenu as a ref with a boolean type
@@ -28,12 +27,11 @@ onUnmounted(() => {
 
 <template>
   <div class="max-w-screen overflow-hidden">
-      <!-- Conditional rendering using v-if -->
-      <NavBar v-if="showMenu" class="fixed top-0 w-full z-[1000]"/>
-      <div class="min-h-[90vh]">
-          <slot />
-      </div>
-      <FooterSection />
+    <!-- Conditionally render the NavBar based on the showMenu value -->
+    <NavBar v-if="showMenu" class="fixed top-0 w-full z-[1000]"/>
+    <div class="bg-customPurple min-h-[90vh]">
+      <slot />
+    </div>
+    <FooterSection />
   </div>
 </template>
-

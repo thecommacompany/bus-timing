@@ -1,7 +1,10 @@
-
 <template>
   <div class="max-w-screen overflow-hidden">
-      <HomeHero/>
-      <HomeSearchBar/>
+      <div class="hidden md:block">
+        <HomeHero/>
+      </div>
+      <div class="">
+        <HomeSearchBar/>
+      </div>
   </div>
 </template>
