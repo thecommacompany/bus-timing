@@ -26,12 +26,12 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="max-w-screen overflow-hidden">
+  <div class="max-w-screen overflow-hidden overflow-y-auto">
     <!-- Conditionally render the NavBar based on the showMenu value -->
-    <NavBar v-if="showMenu" class="fixed top-0 w-full z-[1000]"/>
-    <div class="bg-customPurple min-h-[90vh]">
+    <Navbar v-if="showMenu" class="fixed top-0 w-full z-[1000]"/>
+    <div class="bg-customPurple dark:bg-gray-800 h-[90vh] py-24">
       <slot />
     </div>
-    <FooterSection />
+    <FooterSection class=" h-[10vh] w-screen bg-customPurple"/>
   </div>
 </template>

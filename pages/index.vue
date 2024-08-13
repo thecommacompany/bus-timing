@@ -1,6 +1,7 @@
 <template>
   <div class="max-w-screen overflow-hidden">
-      <div class="hidden md:block">
+
+      <div class="md:block">
         <HomeHero/>
       </div>
       <div class="">

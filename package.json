@@ -15,15 +15,19 @@
     "@nuxt/image": "^1.7.0",
     "@nuxtjs/seo": "2.0.0-rc.16",
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "@pinia/nuxt": "^0.5.3",
     "@primevue/themes": "^4.0.4",
-    "@vue/runtime-dom": "^3.4.36",
+    "@vue/runtime-dom": "^3.4.37",
     "nuxt": "^3.12.4",
+    "pinia": "^2.2.1",
     "primevue": "^4.0.4",
     "tailwindcss-primeui": "^0.3.4",
-    "vue": "^3.4.35",
+    "vue": "^3.4.37",
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@iconify-json/material-symbols": "^1.1.87",
+    "@iconify-json/ph": "^1.1.14",
     "@nuxtjs/device": "^3.1.1",
     "@primevue/nuxt-module": "^4.0.4"
   }

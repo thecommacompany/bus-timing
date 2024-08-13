@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     "@primevue/nuxt-module",
     "@nuxt/icon",
     "@nuxt/image",
-    "@nuxt/eslint"
+    "@nuxt/eslint",
+    '@pinia/nuxt'
   ],
   primevue: {
     options: {

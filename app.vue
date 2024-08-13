@@ -1,7 +1,10 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
   <div>
     <NuxtLayout>
-      <Toast class="pl-10 md:p-0" />
       <NuxtPage />
 
     </NuxtLayout>
